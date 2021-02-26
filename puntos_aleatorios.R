@@ -20,3 +20,4 @@ nom <- as.data.frame(sf::st_coordinates(col$centroide))
 
 
 save(nom, file=here("municipios", "puntos.rda"))
+write_csv(nom, here("municipios", "puntos_2.csv"))
