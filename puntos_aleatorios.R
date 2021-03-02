@@ -61,3 +61,4 @@ nom <- as.data.frame(sf::st_coordinates(col$centroide))
 write_csv(nom, here("municipios", "puntos_nl.csv"))
 
 
+
